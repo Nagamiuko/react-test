@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+.menu-top{
+    position: relative;
+    padding: 2rem; 
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    border: none;
+    .menu-center{
+      display: flex;
+      align-items: center;
+          .title-top{
+            font-size: 30px;
+            color:#ff9191;
+            font-family: 'Labrada', serif;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+   .menu-top{
+        width: 99%;
+      .menu-center{
+        .title-top{
+            font-size: 30px;
+            color:#ff9191;
+            font-family: 'Labrada', serif;
+        }
+     }
+  }
+}
+// @media only screen and (max-width: 600px) {
+//   .menu-top{
+//         margin: 0.1rem;
+//         width: 99%;
+//       .menu-center{
+//         .list-item-menu{
+//             display: none;
+//         }
+//         .title-top{
+//             font-size: 25px;
+//             color: white;
+//             font-family: 'Labrada', serif;
+//         }
+//      }
+//   }
+// }
